@@ -30,7 +30,7 @@ body{
 .usuario{
 	width: 10px;
 }
-.mensaje a{
+.derecha a, .izq a{
 	background-color: #FF9933;
 	color: #fff;
 	border: 5px;
@@ -40,7 +40,7 @@ body{
 	font-weight: bolder;
 
 }
-.mensaje a:hover{
+.derecha a:hover, .izq a:hover{
 	background-color: #3299BB;
 	color: #fff;
 	font-weight: bolder;
@@ -67,11 +67,13 @@ body{
 	display: block;
 	padding-bottom: 0px;
 	overflow: hidden;
+
 }
 
 #Newer-Older.alt {
 	padding-top: 15px;
 	border-top: 1px dotted #999;
+
 }
 
 #Newer-Older div {
@@ -79,7 +81,7 @@ body{
 	max-width: 300px;
 	font-size: 14px;
 	min-height: 15px;
-	color: #737373;
+	color: white;
 	padding-top: 5px;
 }
 
