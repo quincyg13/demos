@@ -6,7 +6,7 @@ body{
 }
 .mensaje{
 	width: 600px;
-	height: 600px;
+	
 	color: #fff;
 	margin: 0 auto;
 	background-color: #336699;
@@ -20,6 +20,12 @@ body{
 	background-color: #424242;
 	color: #fff;
 	text-align: center;
+	padding: 10px;
+}
+#u-sesion{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
 }
 .usuario{
 	width: 10px;
@@ -31,11 +37,13 @@ body{
 	border-radius: 10px;
 	padding: 5px;
 	text-decoration: none;
+	font-weight: bolder;
 
 }
 .mensaje a:hover{
 	background-color: #3299BB;
 	color: #fff;
+	font-weight: bolder;
 }
 .opciones{
 	text-align: center;
@@ -52,3 +60,112 @@ body{
 	text-align: center;
 
 }
+/* Navegación entre entradas */
+
+#Newer-Older {
+	margin-top: 15px;
+	display: block;
+	padding-bottom: 0px;
+	overflow: hidden;
+}
+
+#Newer-Older.alt {
+	padding-top: 15px;
+	border-top: 1px dotted #999;
+}
+
+#Newer-Older div {
+	display: block;
+	max-width: 300px;
+	font-size: 14px;
+	min-height: 15px;
+	color: #737373;
+	padding-top: 5px;
+}
+
+#Newer-Older .newer {
+	float: left;
+	background: url(pix/arrows-left.png) no-repeat 0 0;
+}
+
+#Newer-Older .older {
+	float: right;
+	text-align: right;
+	background: url(pix/arrows-right.png) no-repeat right 0;
+}
+
+#Newer-Older div a {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+#Newer-Older div span a {
+	padding: 0;
+	font-size: inherit;
+	color: #737373;
+}
+
+#Newer-Older div.older a {
+	padding-right: 30px;
+}
+
+#Newer-Older div.newer a {
+	padding-left: 30px;
+}
+
+#Newer-Older .newer:hover {
+	background: url(pix/arrows-left.png) no-repeat 0 -200px;
+	color: #668cb3;
+}
+
+#Newer-Older .older:hover {
+	background: url(pix/arrows-right.png) no-repeat right -200px;
+	color: #668cb3;
+}
+
+#Anterior-Reciente div {
+	max-width: 300px;
+}
+
+#Anterior-Reciente div.anterior {
+	text-align: right;
+	float: right;
+}
+
+#Anterior-Reciente div.anterior a {
+	display: inline-block;
+	margin-top: 20px;
+	padding-right: 30px;
+	padding-top: 5px;
+	background: url(pix/arrows-right.png) no-repeat right 0;
+	height: 25px;
+	color: #737373;
+}
+
+#Anterior-Reciente div.anterior a:hover {
+	background-position: right -200px;
+	color: #668cb3;
+}
+
+#Anterior-Reciente div.reciente {
+	float: left;
+}
+
+#Anterior-Reciente div.reciente a {
+	display: inline-block;
+	margin-top: 20px;
+	padding-top: 5px;
+	background: url(pix/arrows-left.png) no-repeat left 0;
+	height: 25px;
+	color: #737373;
+	padding-left: 30px;
+}
+
+#Anterior-Reciente div.reciente a:hover {
+	background-position: left -200px;
+	color: #668cb3;
+}
+
+/* @end */
